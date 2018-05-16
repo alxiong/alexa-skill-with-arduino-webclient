@@ -7,6 +7,8 @@
 This documentation is streamlined from an original project that uses Amazon Alexa to accept voice commands to move a robotic arm whose motors are controlled by an Arduino, to play a [sliding puzzle](https://en.wikipedia.org/wiki/Sliding_puzzle). With application specific parts stripped away, this repo focus on a generally referrable and reusable structure/template that achieves: **duplex communication between Arduino and Alexa Skill via HTTP API call**.
 
 More specifically, an Arduino Webclient will be set up to query states from or update new states to Alexa Skill running on Amazon Lambda function through a defined API in JSON format.
+
+![project Pic](./assets/demo.jpg)
 ## Requirements /    Prerequisites
 Hardware:
  - Arduino Uno <small>( Mega, Yun, etc. definitely works as well, but this doc is more specific to Arduino Uno whose network capability is limited, so if you unfortunately chose Arduino Uno like I did, read on :) )</small>
@@ -52,7 +54,7 @@ Amazon Account:
 - (Additional) A hacky way to keep Alexa Echo waiting for minutes without ending the session
 
 ## Contribution
-This write-up doesn't put completeness on top, but instead it give disproportionate emphasis/details on things matter or things I wish I could have read or have as a guide during my development experience.
+This write-up doesn't put completeness on top, but instead it give disproportionate emphasis/details on things matter or things I wish I could have read or have as a guide during my development.
 
 If you find this write-up useful and intend to wrap it into a more full-fledged documentation, please feel free to fork this repo or submit any issues. Any Pull Request are welcomed!
 
