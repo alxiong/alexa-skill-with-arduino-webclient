@@ -5,7 +5,7 @@
       "was_cloned": false
     },
     "alex": {
-      "skill_id": "amzn1.ask.skill.366897d9-f60f-4e9d-83cb-a731c5855e6f",
+      "skill_id": "amzn1.ask.skill.YOUR_ALEXA_SKILL_IDENTIFIER",
       "was_cloned": false,
       "merge": {
         "manifest": {

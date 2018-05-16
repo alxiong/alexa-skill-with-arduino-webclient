@@ -15,7 +15,7 @@ Hardware:
  - Arduino Ethernet Shield
  - (optional) Amazon Alexa Echo
 
-Environment:tion ready**, please use it at your own risk.*
+Environment:
  - Node.js 6.10 LTS (recommend install [Node Version Manager](https://github.com/creationix/nvm) for nodejs version switching)
  - Install and Setup [ASK CLI](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html)
 
@@ -59,3 +59,7 @@ This write-up doesn't put completeness on top, but instead it give disproportion
 If you find this write-up useful and intend to wrap it into a more full-fledged documentation, please feel free to fork this repo or submit any issues. Any Pull Request are welcomed!
 
 Plus, all code and markdown files are all under MIT license.
+
+## Help Needed
+- Post migration source code (Alexa Skill re-implementation) using `ASK-SDK v2` && necessary documentation.
+- Noob friendly *IAM Role* Crash Course, especially highlighting necessary decisions/permissions associated with security concerns.

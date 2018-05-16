@@ -198,12 +198,6 @@ const stateHandlers = {
         }
       });
     },
-    'CheckStatusIntent': function() {
-      console.log(this.attributes['puzzleState']);
-      this.response.shouldEndSession(false);
-      this.response.speak("You could see your state in log.");
-      this.emit(':responseReady');
-    },
     'AMAZON.HelpIntent': function() {
       this.response.shouldEndSession(false);
       this.response.speak('There are four commands you could use:move up, move down, move left and, move right.')
