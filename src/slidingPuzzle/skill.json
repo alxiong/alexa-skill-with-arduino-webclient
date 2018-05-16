@@ -1,0 +1,30 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Sliding puzzle controlled by robotic arm through voice instructions",
+          "examplePhrases": [
+            "Alexa open Sliding Puzzle",
+            "Alexa tell Sliding Puzzle to start",
+            "Alexa ask Sliding Puzzle to move right 2 steps"
+          ],
+          "name": "Sliding Puzzle",
+          "description": "Want to play the Sliding Puzzle? Use command like 'move right 2 steps' to control the robotic arm. Enjoy!"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

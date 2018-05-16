@@ -1,0 +1,14 @@
+{
+  "name": "arduino-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Luoyuan Xiong",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.227.1"
+  }
+}

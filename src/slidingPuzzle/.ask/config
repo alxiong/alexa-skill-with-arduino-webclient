@@ -1,0 +1,23 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "",
+      "was_cloned": false
+    },
+    "alex": {
+      "skill_id": "amzn1.ask.skill.366897d9-f60f-4e9d-83cb-a731c5855e6f",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-Sliding_Puzzle-alex"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "jigsaw-puzzle-alexa-skill",
+  "version": "1.0.0",
+  "description": "sliding puzzle using Alexa skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexXiong97/NTU-DIP.git"
+  },
+  "author": "Luoyuan Alex Xiong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexXiong97/NTU-DIP/issues"
+  },
+  "homepage": "https://github.com/AlexXiong97/NTU-DIP#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-zip": "^4.1.0",
+    "mocha": "^5.0.0",
+    "webpack": "^3.10.0"
+  }
+}

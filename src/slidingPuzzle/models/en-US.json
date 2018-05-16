@@ -1,0 +1,77 @@
+{
+    "interactionModel":{
+        "languageModel":{
+            "invocationName":"sliding puzzle",
+            "intents":[
+                {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.YesIntent",
+                  "samples": []
+                },{
+                  "name": "AMAZON.NoIntent",
+                  "samples": []
+                },
+                {
+                  "name": "MoveIntent",
+                  "slots": [
+                    {
+                      "name": "direction",
+                      "type": "DIRECTION_TYPE"
+                    }
+                  ],
+                  "samples":[
+                    "move {direction}",
+                    "move to the {direction}",
+                    "shift {direction}",
+                    "shift to the {direction}",
+                    "slide {direction}"
+                  ]
+                }
+            ],
+            "types":[
+              {
+                "name": "DIRECTION_TYPE",
+                "values": [
+                  {
+                    "id": "LEFT",
+                    "name": {
+                      "value": "left"
+                    }
+                  },
+                  {
+                    "id": "RIGHT",
+                    "name": {
+                      "value": "right"
+                    }
+                  },
+                  {
+                    "id": "UP",
+                    "name": {
+                      "value": "up",
+                      "synonyms": ["top"]
+                    }
+                  },
+                  {
+                    "id": "DOWN",
+                    "name": {
+                      "value": "down",
+                      "synonyms": ["bottom"]
+                    }
+                  }
+                ]
+              }
+            ]
+        }
+    }
+}
