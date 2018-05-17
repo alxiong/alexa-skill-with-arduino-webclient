@@ -26,4 +26,4 @@ All Alexa Skill code should be pretty self-explanatory, if you bumped into any s
 - Check your *IAM Role*, make sure at least you have `lambda_basic_execution_access`, `dynamodb_execution` permissions.
 
 <a href="./0-system-architecture.md"><img src="./assets/prev_1.png" style="float:left; margin-bottom: 30px;"></img></a>
-<a href="./2-invoking-lambda-function.md"><img src="./assets/next_1.png" style="float:right;"></img></a>
+<a href="./2-webserver-lambda-function.md"><img src="./assets/next_1.png" style="float:right;"></img></a>

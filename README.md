@@ -36,19 +36,20 @@ Amazon Account:
 
 - **[STEP 0:](./0-system-architecture.md) System Architecture**
 
-- **STEP 1: Alexa Skill built with `ASK-SDK` and `ASK CLI`**
+- **[STEP 1](./1-build-alexa-skill.md): Alexa Skill built with `ASK-SDK` and `ASK CLI`**
 
-- **STEP 2: Invoking another Lambda Function**
+- **[STEP 2](./2-configure-api-gateway.md): Configuring `Amazon API Gateway`**
+  - API call handling hooked up with Lambda Functions
+
+- **[STEP 3](./3-webserver-lambda-function.md): Implement Web Server in another Lambda Function**
+
+- **[STEP 4](./4-invoking-another-lambda.md): Invoking between Lambda Functions**
   - to modulate and decouple the web server logic from that of the Alexa skill's core logic
 
-- **STEP 3: Configuring `Amazon API Gateway`**
-
-- **STEP 4: Implement Web Server in another Lambda Function and connecting the two**
-
-- **STEP 5: Configuring `Amazon CloudFront`**
+- **[STEP 5](./5-configure-cloudfront.md): Configuring `Amazon CloudFront`**
 	- accept HTTP request instead of HTTPS, while avoiding `cdn` for JSON request
 
-- **STEP 6: Implement Arduino WebClient**
+- **[STEP 6](./6-arduino-webclient.md): Implement Arduino WebClient**
 	- to parse JSON response and initiate HTTP request
 
 - (Additional) A hacky way to keep Alexa Echo waiting for minutes without ending the session
