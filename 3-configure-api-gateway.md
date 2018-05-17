@@ -46,5 +46,5 @@ You could verify the successful deployment by typing the URL from your browser.
 
 ![10](./assets/3_10.png)
 
-<a href="./2-webserver-lambda-function.md"><img src="./assets/prev_2.png" style="float:left; margin-bottom: 30px;"></img></a>
-<a href="./4-invoking-another-lambda.md"><img src="./assets/next_2.png" style="float:right;"></img></a>
+<a href="./2-webserver-lambda-function.md"><img src="./assets/prev_3.png" style="float:left; margin-bottom: 30px;"></img></a>
+<a href="./4-invoking-another-lambda.md"><img src="./assets/next_3.png" style="float:right;"></img></a>
