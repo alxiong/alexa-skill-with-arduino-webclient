@@ -1,6 +1,7 @@
 # Configure Amazon API Gateway
 
-## Why & What
+## Why
+To trigger the execution of our [web server lambda function](./2-webserver-lambda-function.md) across an internet away, ( tiers of routers away...to be more exact :) ) we need an API that bridges an URL with the lambda functions, and forwarding all parameters attached. This is what Amazon API Gateway is used for in our system.
 
 ## How
 -  Go to [Amazon API Gateway](https://console.aws.amazon.com/apigateway/home?region=us-east-1#/welcome), be consistent about your choice of region.

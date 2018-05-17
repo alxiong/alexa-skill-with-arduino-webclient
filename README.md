@@ -38,10 +38,10 @@ Amazon Account:
 
 - **[STEP 1](./1-build-alexa-skill.md): Alexa Skill built with `ASK-SDK` and `ASK CLI`**
 
-- **[STEP 2](./2-configure-api-gateway.md): Configuring `Amazon API Gateway`**
-  - API call handling hooked up with Lambda Functions
+- **[STEP 2](./2-webserver-lambda-function.md): Implement Web Server in another Lambda Function**
 
-- **[STEP 3](./3-webserver-lambda-function.md): Implement Web Server in another Lambda Function**
+- **[STEP 3](./3-configure-api-gateway.md): Configuring `Amazon API Gateway`**
+  - API call handling hooked up with Lambda Functions
 
 - **[STEP 4](./4-invoking-another-lambda.md): Invoking between Lambda Functions**
   - to modulate and decouple the web server logic from that of the Alexa skill's core logic
