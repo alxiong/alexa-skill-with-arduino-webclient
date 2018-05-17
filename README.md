@@ -52,7 +52,7 @@ Amazon Account:
 - **[STEP 6](./6-arduino-webclient.md): Implement Arduino WebClient**
 	- to parse JSON response and initiate HTTP request
 
-- (Additional) A hacky way to keep Alexa Echo waiting for minutes without ending the session
+- (Additional) A hacky way to [keep Alexa Echo waiting for minutes without ending the session](./keep-alexa-wait-hacky.md)
 
 ## Contribution
 This write-up doesn't put completeness on top, but instead it give disproportionate emphasis/details on things matter or things I wish I could have read or have as a guide during my development.
