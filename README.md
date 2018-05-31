@@ -8,6 +8,8 @@ This documentation is streamlined from an original project that uses Amazon Alex
 
 More specifically, an Arduino Webclient will be set up to query states from or update new states to Alexa Skill running on Amazon Lambda function through a defined API in JSON format.
 
+Here is a short [video demo](https://drive.google.com/open?id=1cMpddDJZUFdYArvuETQLGQJOj6cY3pjZ)
+
 ![project Pic](./assets/demo.jpg)
 ## Requirements /    Prerequisites
 Hardware:
