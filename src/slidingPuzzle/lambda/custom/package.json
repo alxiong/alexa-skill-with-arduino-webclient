@@ -23,7 +23,7 @@
     "request": "^2.85.0"
   },
   "devDependencies": {
-    "del": "^3.0.0",
+    "del": "^4.0.0",
     "gulp": "^4.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-clean": "^0.4.0",
