@@ -14,7 +14,6 @@
   "dependencies": {
     "aws-sdk": "^2.227.1",
     "alexa-sdk": "^1.0.25",
-    "http": "0.0.0",
     "https": "^1.0.0",
     "request": "^2.85.0"
   },
