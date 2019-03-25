@@ -9,6 +9,6 @@
   "author": "Alex Luoyuan Xiong",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.426.0"
+    "aws-sdk": "^2.428.0"
   }
 }
