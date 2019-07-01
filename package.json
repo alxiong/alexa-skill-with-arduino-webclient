@@ -28,7 +28,7 @@
     "gulp-util": "^3.0.8",
     "gulp-zip": "^4.1.0",
     "mocha": "^6.0.0",
-    "webpack": "^4.29.3"
+    "webpack": "^4.35.2"
   },
   "homepage": "https://github.com/AlexXiong97/alexa-skill-with-arduino-webclient#readme"
 }
